@@ -25,7 +25,7 @@ None of the images are encrypted.
 - **Container format:** Allwinner **IMAGEWTY v3**.
 
 - ## 2. Software
-- - OS: **Tina Linux** (Allwinner's OpenWrt fork), version **3.5.1** , orversion **4.0.0**.
+- - OS: **Tina Linux** (Allwinner's OpenWrt fork), version **3.5.1** , or version **4.0.0**.
 - Init: BusyBox init + `/etc/rc.common` (OpenWrt-style procd scripts).
 - Main application: **`usr/bin/sdvcam`** (~5 MB, stripped ARM/Thumb-2 ELF,
   musl libc) — this is the core UI/media binary and the one that contains
