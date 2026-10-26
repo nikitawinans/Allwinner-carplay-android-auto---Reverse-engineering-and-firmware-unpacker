@@ -44,11 +44,11 @@ None of the images are encrypted.
   `XXTJUI`, `QDWIFISPSKSXTZSCDDKFWCD`.
 
   ## 3. Password
-  | Where | Value | Scope | Source |
+| Where | Value | Scope | Source |
 |---|---|---|---|
 | `/etc/hostapd.conf` — main Wi-Fi AP password | **`88888888`** | All 20 images, identical | `wpa_passphrase=88888888` in plaintext |
 | `/etc/hostapd.conf` — AP SSID | `lylink` (12 images) or `APCarplay` (8 images) | Split roughly evenly | plaintext |
-| `usr/share/minigui/res/data/setting.lua` — CarPlay-dongle AP default password | **`12345678`** (`wifiap_carlink_pwd`) | | plaintext default |
+| `usr/share/minigui/res/data/setting.lua` — CarPlay-dongle AP default password | **`12345678`** (`wifiap_carlink_pwd`) | plaintext default |
 | `usr/share/minigui/res/data/setting.lua` — RTSP AP default password | **`12345678`** (`wifiap_rtsp_pwd`) | Same scope | plaintext default |
 | `/etc/shadow` — root password | **`tina`** | 20 of 20 images | DES-crypt hash `91rMiZzGliXHM`, cracked by brute force |
 | `/etc/passwd` — root password hash | not cracked | All 20 images, byte-identical hash | MD5-crypt `$1$xvD2MFQL$mJLupzaSgmoFwggj1q6HC1` |
