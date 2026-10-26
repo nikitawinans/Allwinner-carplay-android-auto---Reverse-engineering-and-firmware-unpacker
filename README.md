@@ -2,7 +2,8 @@
 Allwinner Carplay / Android auto devices - Reverse engineering and firmware unpacker
 
 * - ## Firmware unpacker in section 8
-  - 
+
+    
 # Allwinner sun8iw19 PND/DVR Firmware Analysis (Tina Linux)
 I analyzed more of 20 firmware images for the same Allwinner product line:
 1.
