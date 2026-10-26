@@ -1,4 +1,4 @@
-# Allwinner-carplay-android-auto---Reverse-engineering-and-firmware-unpacker
+# Allwinner - carplay / android auto Reverse-engineering and firmware unpacker
 Allwinner Carplay / Android auto devices - Reverse engineering and firmware unpacker
 
 * - ## Firmware unpacker in section 8
@@ -6,8 +6,19 @@ Allwinner Carplay / Android auto devices - Reverse engineering and firmware unpa
     
 # Allwinner sun8iw19 PND/DVR Firmware Analysis (Tina Linux)
 I analyzed more of 20 firmware images for the same Allwinner product line:
-1.
-2.
+1. Non_DVR_T86B1A_PND_1026_1600X600M35_CPAPAAMC_20241115_V1_JM_PND
+2. R12-tw (854x480)
+3. RX10-en (carplay.tw ser- 3D62000001-3D62001999)
+4. RX10-en (carplay.tw ser- 3D62002001~3D62004xxx)
+5. RX10-en_(1600x600)
+6. RX10-en-new (1600x600)
+7. T86B1_1026_1600X600M35_CPAPAAMC_20240605_V1_SH_BLACKBOXMYCAR (M35)
+8. T86B1_1026_1600X600M35_CPAPAAMC_20240605_V1_SH_BLACKBOXMYCAR
+9. T86B1A_PND_1026_SHUNXINDA_1600X600M35_CPAPAAMC_20240408_V1 (A3247, M35 24.4)
+10. T86B1A_PND_1036_1600X720M12_CPAPAAMC_20240314_V1
+11. T86BA_1026_1600X600M61_CPAPAAMC_20240127_V1_SXD_XXTUI (A3073 M61)
+12.T86BA_1026_1600X600M61_CPAPAAMC_20240131_V1_JM_QDWIFISPSKSXTZSCDDKFWCD (M61) T86BA_1026_1600X600M61_CPAPAAMC_20240131_V1_JM_QDWIFISPSKSXTZSCDDKFWCD
+13. T86BA_PND_1026_SHUNXINDA_1600X600M35_CPAPAAMC_20240105_V1 (A3247, M35 12.20)
 ... and more
 
 None of the images are encrypted.
