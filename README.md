@@ -24,7 +24,7 @@ None of the images are encrypted.
   an alternative (`extrootfs_v1x`) — board revisions can ship either chip.
 - **Container format:** Allwinner **IMAGEWTY v3**.
 
-- ## 2. Software
+## 2. Software
 - - OS: **Tina Linux** (Allwinner's OpenWrt fork), version **3.5.1** , or version **4.0.0**.
 - Init: BusyBox init + `/etc/rc.common` (OpenWrt-style procd scripts).
 - Main application: **`usr/bin/sdvcam`** (~5 MB, stripped ARM/Thumb-2 ELF,
@@ -43,7 +43,7 @@ None of the images are encrypted.
   and branch name, tagged per reseller/batch (`SHUNXINDA`, `BLACKBOXMYCAR`,
   `XXTJUI`, `QDWIFISPSKSXTZSCDDKFWCD`.
 
-  ## 3. Password
+## 3. Password
 | Where | Value | Scope | Source |
 |---|---|---|---|
 | `/etc/hostapd.conf` — main Wi-Fi AP password | **`88888888`** | All 20 images, identical | `wpa_passphrase=88888888` in plaintext |
