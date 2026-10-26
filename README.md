@@ -143,6 +143,7 @@ It:
 - flags other partition types it recognizes (ext*, UBI, Android bootimg).
 
 python unpack_fw.py firmware.img out_dir
+or
 python unpack_fw.py firmware.zip  out_dir
 
 
