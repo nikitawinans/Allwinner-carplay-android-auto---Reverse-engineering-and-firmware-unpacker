@@ -96,7 +96,7 @@ inside the normal `DCIM/` recording folders):
   do it with the right `-pix_fmt`/`-s` flags once the resolution is known
   from the filename) would be needed to actually view them.
 
-  ## 6. SSH / remote access
+## 6. SSH / remote access
 
 **No SSH or Telnet daemon exists in any of the 20 firmwares** — checked the
 opkg package lists, every `/etc/init.d/*` and `/etc/rc.d/*` script, and
@@ -130,7 +130,6 @@ depends entirely on the file name:
 | `boot_logo.fex` | Plain JPEG (with Exif) — this is exactly the file code `101010` reloads from the SD card | Opens directly as an image |
 | `misc.fex`, `*GPT*.fex`, `*MBR*.fex`, `dlinfo.fex`, `arisc.fex`, `aultools.fex`/`aultls32.fex`, `usbtool*.fex`, `cardtool.fex` | Factory/service binaries and partition tables | No user data inside; not worth opening |
 
-
 ## 8. Firmware unpacker (included)
 
 **`unpack_fw.py`** — universal Allwinner `IMAGEWTY` unpacker. 
@@ -143,10 +142,9 @@ It:
 - extracts SquashFS partitions into `tree/<partition>/`;
 - flags other partition types it recognizes (ext*, UBI, Android bootimg).
 
-- ```
 python unpack_fw.py firmware.img out_dir
 python unpack_fw.py firmware.zip  out_dir
-```
+
 
 
 
